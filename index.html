@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./unicorn.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <!defer makes js to run after the page has loaded>
+    <script src="/app.js" defer></script>
+
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1>Get to know me!</h1>
+      <nav>
+        <button type="button"><a href="#">Home</a></button>
+
+        <button type="button"><a href="#">Favourites</a></button>
+        <button type="button"><a href="#">Gallery</a></button>
+        <button type="button"><a href="#">Contact</a></button>
+      </nav>
+    </header>
+    <main>
+      <section class="biography">
+        <h2>Biography</h2>
+        <p>
+          Hello! I am Manuel, a 29-year-old aspiring developer from Spain. I
+          have lived in Norwich for 6 years now, and I am in the process of
+          learning HTML, CSS, and JavaScript to become a fully-fledged
+          developer.
+        </p>
+        <img
+          class="Norwich"
+          src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Norwich_Skyline.jpg"
+          alt="Norwich"
+        />
+      </section>
+      <section>
+        <h2>Education</h2>
+        <p>I have studied both in Spain and the UK!</p>
+        <ul>
+          <li>CELTA</li>
+          <li>MA in Applied Linguistics</li>
+          <li>BA in English Studies</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Work Experience</h2>
+        <p>
+          I have worked as an ESOL teacher for 4 years in private language
+          schools and City College before joining the bootcamp.
+        </p>
+      </section>
+      <section>
+        <h2>Goals</h2>
+        <ol>
+          <li>
+            To change my career path and get into the tech industry as a
+            software developer.
+          </li>
+          <li>To find a job with good work-life balance.</li>
+          <li>To find more fulfilling hobbies and interests.</li>
+        </ol>
+      </section>
+      <button type="button" onclick="quiz()">Fun Quiz</button>
+    </main>
+    <footer>
+      <p>&copy; Manuel Gonzalez</p>
+    </footer>
+  </body>
+</html>

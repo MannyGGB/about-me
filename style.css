@@ -1,0 +1,66 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #1e3888;
+  margin: 0;
+  text-indent: 1rem;
+}
+header {
+  background-color: #ffad69;
+  padding: 20px;
+}
+h1 {
+  text-align: left;
+  animation-name: h1-colour;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes h1-colour {
+  from {
+    color: #1e3888;
+  }
+  to {
+    color: #9c3848;
+  }
+}
+button {
+  background-color: #1e3888;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  color: #ffad69;
+  display: inline;
+  margin-inline: 3rem;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #9c3848;
+}
+a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  color: #f5e663;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f5e663;
+}
+.biography {
+  padding-top: 10px;
+}
+.Norwich {
+  max-width: 40rem;
+  max-height: 20rem;
+  margin-left: 3rem;
+  border-radius: 10px;
+  border: solid #9c3848;
+}
+ul > li {
+  list-style-image: url("./book.png");
+}
+footer {
+  background-color: #ffad69;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+}
