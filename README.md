@@ -1,8 +1,9 @@
 # about-me
 
-## Lighthouse Report
+## Lighthouse Reports
 
 - ![Lighthouse Report](./Lighthouse%20Report.png)
+- ![Lighthouse Report 2](./LightHouse%20report%202.png)
 
 ## References
 
