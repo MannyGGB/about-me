@@ -110,16 +110,16 @@ function quiz() {
     }
   }
   let myCities = [
-    "Granada",
-    "Cordoba",
-    "Toledo",
-    "Barcelona",
-    "Santiago de Compostela",
-    "Valencia",
-    "Salamanca",
-    "Palma de Mallorca",
-    "Santander",
-    "Bilbao",
+    "granada",
+    "cordoba",
+    "toledo",
+    "barcelona",
+    "santiago de compostela",
+    "valencia",
+    "salamanca",
+    "palma de mallorca",
+    "santander",
+    "bilbao",
   ];
   let myCitiesAnswer = prompt(
     "Name one of my top 10 Spanish cities."
