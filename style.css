@@ -55,7 +55,7 @@ main {
   border-radius: 10px;
   border: solid #9c3848;
 }
-ul > li {
+.edu {
   list-style-image: url("./book.png");
 }
 footer {
