@@ -8,3 +8,8 @@
 ## References
 
 - Favicon: https://www.flaticon.com/free-icons/unicorn
+
+## Pair programming
+
+- Driver: Ritchie
+- Navigators: Nellie, Manny

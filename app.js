@@ -110,25 +110,31 @@ function quiz() {
     }
   }
   let myCities = [
-    "granada",
-    "cordoba",
-    "toledo",
-    "barcelona",
-    "santiago de compostela",
-    "valencia",
-    "salamanca",
-    "palma de mallorca",
-    "santander",
-    "bilbao",
+    " Granada",
+    " Cordoba",
+    " Toledo",
+    " Barcelona",
+    " Santiago de Compostela",
+    " Valencia",
+    " Salamanca",
+    " Palma de Mallorca",
+    " Santander",
+    " Bilbao",
   ];
   let myCitiesAnswer = prompt(
     "Name one of my top 10 Spanish cities."
   ).toLowerCase();
   let index = myCities.indexOf(myCitiesAnswer);
-  if (index !== -1) {
-    alert("correct");
-  } else if (index === -1) {
-    alert("incorrect");
+  for (let i = 1; i < 6; i++) {
+    if (index !== -1) {
+      alert("Correct!");
+      userPoints++;
+    } else if (index === -1) {
+      prompt("Incorrect!");
+    }
+    if (i == 5) {
+      i = alert("Sorry, the answers are " + myCities);
+    }
   }
 
   alert(
