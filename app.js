@@ -100,8 +100,8 @@ function quiz() {
       numberGuess = prompt("Getting closer...");
     } else if (parseInt(numberGuess) == 12) {
       numberGuess = alert("Correct!");
-      break;
       userPoints++;
+      break;
     } else {
       numberGuess = prompt("Too high!");
     }
@@ -110,25 +110,26 @@ function quiz() {
     }
   }
   let myCities = [
-    " Granada",
-    " Cordoba",
-    " Toledo",
-    " Barcelona",
-    " Santiago de Compostela",
-    " Valencia",
-    " Salamanca",
-    " Palma de Mallorca",
-    " Santander",
-    " Bilbao",
+    "granada",
+    "cordoba",
+    "toledo",
+    "barcelona",
+    "santiago de compostela",
+    "valencia",
+    "salamanca",
+    "palma de mallorca",
+    "santander",
+    "bilbao",
   ];
-  let myCitiesAnswer = prompt(
-    "Name one of my top 10 Spanish cities."
-  ).toLowerCase();
+  let myCitiesAnswer = prompt("Name one of my top 10 Spanish cities.")
+    .toLowerCase()
+    .trim();
   let index = myCities.indexOf(myCitiesAnswer);
   for (let i = 1; i < 6; i++) {
     if (index !== -1) {
       alert("Correct!");
       userPoints++;
+      break;
     } else if (index === -1) {
       prompt("Incorrect!");
     }
