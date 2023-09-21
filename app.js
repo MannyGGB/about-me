@@ -124,20 +124,13 @@ function quiz() {
   let myCitiesAnswer = prompt(
     "Name one of my top 10 Spanish cities."
   ).toLowerCase();
-  for (let i = 1; i < 6; i++) {
-    for (let a = 0; a < myCities.length; a++) {
-      if (myCitiesAnswer === myCities[a]) {
-        alert("Well done! You can visit on your next holiday!");
-        break;
-        userPoints++;
-      } else {
-        myCitiesAnswer = prompt("Try again!");
-      }
-      if (i == 5) {
-        i = alert("Sorry, the answers are " + myCities + ".");
-      }
-    }
+  let index = myCities.indexOf(myCitiesAnswer);
+  if (index !== -1) {
+    alert("correct");
+  } else if (index === -1) {
+    alert("incorrect");
   }
+
   alert(
     "Thank you for doing the quiz, " +
       userName +
