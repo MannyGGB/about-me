@@ -90,7 +90,9 @@ function quiz() {
     alert("Sorry, that's incorrect!");
   }
 
-  let numberGuess = prompt("What number am I thinking of?");
+  let numberGuess = prompt(
+    "What number am I thinking of? You have four attempts."
+  );
   for (let i = 1; i < 4; i++) {
     if (parseInt(numberGuess) <= 8) {
       numberGuess = prompt("Too low!");
@@ -121,7 +123,9 @@ function quiz() {
     "santander",
     "bilbao",
   ];
-  let myCitiesAnswer = prompt("Name one of my top 10 Spanish cities.")
+  let myCitiesAnswer = prompt(
+    "Name one of my top 10 Spanish cities. You have six attempts."
+  )
     .toLowerCase()
     .trim();
   let index = myCities.indexOf(myCitiesAnswer);
